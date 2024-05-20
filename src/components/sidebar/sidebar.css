@@ -1,0 +1,4 @@
+.nav_links:hover{
+    color: red;
+    transition: 0.9s;
+}
