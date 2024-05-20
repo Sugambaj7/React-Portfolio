@@ -14,7 +14,7 @@ const Layout = () => {
       </div>
       <div className="flex flex-row flex-grow justify-center items-center">
         <SideBar />
-        <main className="flex justify-center items-center w-full">
+        <main className="flex justify-center w-full h-full  overflow-hidden">
           <Outlet />
         </main>
       </div>
