@@ -6,22 +6,26 @@ import Footer from "./footer/Footer";
 
 const Layout = () => {
   return (
-    <div className="flex flex-col h-screen">
-      <div className="ml-4 mt-4">
-        <h1>
-          <img className="h-16 w-16" src={Logo} alt="logo" />
-        </h1>
-      </div>
-      <div className="flex flex-row flex-grow justify-center items-center">
-        <SideBar />
-        <main className="flex justify-center w-full h-full  overflow-hidden">
-          <Outlet />
-        </main>
-      </div>
+    <div className="flex flex-col min-h-screen">
+      <header className="flex items-center h-20 p-2">
+        <div className="h-16 w-16">
+          <img className="h-full w-full object-cover" src={Logo} alt="Logo" />
+        </div>
+      </header>
 
-      <div>
+      <main className="flex flex-1">
+        <aside className="fixed top-[50%] translate-y-[-1/2] flex justify-center w-10 sm:w-20 ">
+          <SideBar />
+        </aside>
+
+        <section className="w-full ">
+          <Outlet />
+        </section>
+      </main>
+
+      <footer className="h-10 w-full flex items-center justify-center">
         <Footer />
-      </div>
+      </footer>
     </div>
   );
 };

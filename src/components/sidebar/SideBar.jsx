@@ -10,8 +10,7 @@ import "./sidebar.css";
 
 export default function SideBar() {
   return (
-    <aside className="ml-4 mt-1 mr-1">
-      <nav className="nav mt-10">
+      <nav className="nav pt-8 pb-8">
         <ul className="text-3xl flex flex-col space-y-8">
           <li className="nav_links">
             <Link to="/">
@@ -45,6 +44,5 @@ export default function SideBar() {
           </li>
         </ul>
       </nav>
-    </aside>
   );
 }
