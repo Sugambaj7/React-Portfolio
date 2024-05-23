@@ -10,39 +10,39 @@ import "./sidebar.css";
 
 export default function SideBar() {
   return (
-      <nav className="nav pt-8 pb-8">
-        <ul className="text-3xl flex flex-col space-y-8">
-          <li className="nav_links">
-            <Link to="/">
-              <IoHomeOutline />
-            </Link>
-          </li>
-          <li className="nav_links">
-            <Link to="/about">
-              <BsPersonCheck />
-            </Link>
-          </li>
-          <li className="nav_links">
-            <Link to="/services">
-              <IoBriefcaseOutline />
-            </Link>
-          </li>
-          <li className="nav_links">
-            <Link to="/academics">
-              <LuGraduationCap />
-            </Link>
-          </li>
-          <li className="nav_links">
-            <Link to="/recentworks">
-              <FiLayers />
-            </Link>
-          </li>
-          <li className="nav_links">
-            <Link to="/contact">
-              <IoMdChatboxes />
-            </Link>
-          </li>
-        </ul>
-      </nav>
+    <nav className="nav pt-8 pb-8">
+      <ul className="text-3xl flex flex-col space-y-8">
+        <li className="nav_links">
+          <Link to="/">
+            <IoHomeOutline />
+          </Link>
+        </li>
+        <li className="nav_links">
+          <Link to="/about">
+            <BsPersonCheck />
+          </Link>
+        </li>
+        <li className="nav_links">
+          <Link to="/services">
+            <IoBriefcaseOutline />
+          </Link>
+        </li>
+        <li className="nav_links">
+          <Link to="/academics">
+            <LuGraduationCap />
+          </Link>
+        </li>
+        <li className="nav_links">
+          <Link to="/recentworks">
+            <FiLayers />
+          </Link>
+        </li>
+        <li className="nav_links">
+          <Link to="/contact">
+            <IoMdChatboxes />
+          </Link>
+        </li>
+      </ul>
+    </nav>
   );
 }

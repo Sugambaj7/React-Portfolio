@@ -27,13 +27,13 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="ml-10 sm:ml-20 md:ml-20 lg:ml-20 flex flex-col">
+    <div className="ml-10 flex flex-col sm:ml-20 md:ml-20 lg:ml-20 ">
       {/* full nai leko xa */}
       <div className="flex justify-center">
         <h2 className="text-3xl font-bold">Services</h2>
       </div>
 
-      <div className="w-full flex flex-wrap mb-20 pb-4 sm:flex-row justify-center items-center md:flex-row   lg:flex lg:flex-row ">
+      <div className="w-full mt-4 flex flex-wrap mb-20 pb-4 sm:flex-row justify-center items-center md:flex-row   lg:flex lg:flex-row ">
         {services.map(({ id, image, title, description }) => {
           return (
             //each div
