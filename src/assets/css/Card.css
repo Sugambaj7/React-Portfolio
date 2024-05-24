@@ -1,4 +1,8 @@
+.timeline_item:first-child{
+    margin-top: 3rem;
+}
 .timeline_item:last-child{
+    margin-bottom: 3rem;
     padding-bottom: 0;
 }
 .timeline_item::before{
@@ -6,19 +10,28 @@
     width: 2px;
     height: 100%;
     background-color: #F5C0C1;
-    /* background-color: black; */
     top: 0;
-    left: -0.5rem;
+    left: 0;
     position: absolute;
     z-index: 1;
+    margin-right: 1.5rem;
 }
 .timeline-icon {
     position: absolute;
-    left: -1.2rem;
+    left: -10px;
     top: 0;
     color: #F5C0C1;
     background-color: #F8F8FC;
     z-index: 2;
     padding-top: 2px;
     padding-bottom: 2px;
+}
+@media screen and (min-width: 640px){
+    .timeline_item::before{
+        left: -30px;
+    }
+    .timeline-icon{
+        left: -46px;
+    }
+    
 }
