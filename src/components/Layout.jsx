@@ -14,7 +14,7 @@ const Layout = () => {
       </header>
 
       <main className="flex flex-1">
-        <aside className="bg-green-400 fixed top-[50%] translate-y-[-1/2] flex justify-center w-10 sm:w-20 ">
+        <aside className="bg-green-400 fixed top-[50%] translate-y-[-1/2] flex justify-center w-10 sm:w-20">
           <SideBar />
         </aside>
 
