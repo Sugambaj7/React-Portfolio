@@ -6,6 +6,9 @@ export default {
       translate: {
         "[-1/2]": "-50%",
       },
+      width:{
+        "100": "30rem",
+      },
       colors: {
         "custom-white": "#f1f1f1",
         "custom-yellow": "#FFCE59",

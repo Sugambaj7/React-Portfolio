@@ -3,7 +3,7 @@ import myPic from "../assets/me.jpg";
 
 const About = () => {
   return (
-    <div className="ml-10 flex flex-col sm:ml-24 sm:mr-10 justify-center items-center">
+    <div className="ml-12 mr-2 flex flex-col sm:ml-24 sm:mr-10 justify-center items-center">
       <div className="flex justify-center">
         <h2 className="text-3xl font-bold lg:text-4xl">About me</h2>
       </div>
