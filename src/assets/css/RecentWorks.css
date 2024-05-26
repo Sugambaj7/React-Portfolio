@@ -1,0 +1,63 @@
+.work_items:hover{
+    color: red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.work__mask{
+    background-color: #6c6ce5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: .3s;
+    opacity: 0;
+}
+.work__category{
+    color:#fff;
+    background-color: #FF6E5D;
+    position: absolute;
+    top: 0;
+    left: 1.25rem;
+    padding: 0.25rem 0.5rem;
+    transform: translateY(-40px);
+    transition: 0.3s;
+    display: none;
+}
+.work__card:hover .work__mask{
+    transition: 0.1s;
+    opacity: 0.9;
+}
+.work__title{
+    color:#fff;
+    position: absolute;
+    top: 2rem;
+    transform: translateY(5px);
+    transition: .3s;
+    opacity: 0;
+}
+.work__button{
+    color: #fff;
+    position: absolute;
+    left: 1.25rem;
+    bottom: 1.5rem;
+    display: block;
+    background-color: #ffd15c;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    transition: .3s;
+    opacity: 0;
+}
+.work__card:hover .work__button{
+    opacity: 1;
+}
+.work__card:hover .work__title,
+.work__card:hover .work__category{
+    opacity: 1;
+    display: block;
+    transform: translateY(0);
+}
