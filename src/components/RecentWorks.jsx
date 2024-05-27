@@ -15,31 +15,31 @@ const RecentWorks = () => {
   };
   return (
     <div className="ml-12 mr-2 mb-8 flex flex-col sm:ml-24 sm:mr-5">
-      <h3 className="text-3xl font-bold w-full text-center">Recent Works</h3>
+      <h3 className="text-2xl font-bold w-full text-center md:text-3xl lg:text-4xl">Recent Works</h3>
       <div className="work__filters mt-5 mr-2 flex flex-wrap space-x-4 justify-center">
         <span
-          className="work_items text-lg"
+          className="work_items text-md md:text-lg lg:text-xl"
           onClick={() => setWorks(RecentWorksDatas)}
         >
           Everything
         </span>
         <span
-          className="work_items text-lg"
+          className="work_items text-md md:text-lg lg:text-xl"
           onClick={() => filterWork("Design")}
         >
           Design
         </span>
-        <span className="work_items text-lg" onClick={() => filterWork("Art")}>
+        <span className="work_items text-md md:text-lg lg:text-xl" onClick={() => filterWork("Art")}>
           Art
         </span>
         <span
-          className="work_items text-lg"
+          className="work_items text-md md:text-lg lg:text-xl"
           onClick={() => filterWork("Creative")}
         >
           Creative
         </span>
         <span
-          className="work_items text-lg"
+          className="work_items text-md md:text-lg lg:text-xl"
           onClick={() => filterWork("Branding")}
         >
           Branding

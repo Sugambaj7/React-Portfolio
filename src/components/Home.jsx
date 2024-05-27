@@ -8,7 +8,7 @@ import "../assets/css/Home.css";
 
 const Home = () => {
   return (
-    <div className="mt-16 ml-12 mr-2 mb-10 flex flex-col justify-center items-center sm:ml-24 sm:mr-10 lg:mt-28">
+    <div className="mt-16 ml-12 mr-2 mb-10 flex flex-col justify-center items-center sm:ml-24 sm:mr-10">
       <div className="w-full flex justify-center">
         <div className="w-24 h-24 rounded-full p-1 shadow-[0px_4px_16px_rgba(17,17,26,0.1),_0px_8px_24px_rgba(17,17,26,0.1),_0px_16px_56px_rgba(17,17,26,0.1)] sm:w-28 sm:h-28 lg:w-36 lg:h-36">
           <img

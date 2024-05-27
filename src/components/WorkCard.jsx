@@ -4,7 +4,7 @@ import "../assets/css/RecentWorks.css";
 
 const WorkCard = (props) => {
   return (
-    <div className="work__card flex flex-col items-center bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg w-[60%] p-1 relative sm:w-[40%]">
+    <div className="work__card flex flex-col items-center bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded-lg w-[60%] p-1 relative sm:w-[40%] md:w-[30%] lg:w-[20%]">
       <div className="work__thumbnail">
         <div className="h-28 w-28 sm:h-40 sm:w-40">
           <img

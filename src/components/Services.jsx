@@ -36,7 +36,7 @@ const Services = () => {
         <h2 className="text-2xl font-bold md:text-3xl lg:text-4xl">Services</h2>
       </div>
 
-      <div className="mt-6 flex flex-wrap justify-center mb-20 md:mt-12 lg:mt-16">
+      <div className="mt-6 flex flex-wrap justify-center mb-20 md:mt-12 lg:mt-12">
         {services.map(({ id, image, title, description }) => {
           return (
             //each div
