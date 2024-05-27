@@ -4,6 +4,7 @@ import { IoLogoInstagram } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 import "../assets/css/Home.css";
 
 const Home = () => {
@@ -48,7 +49,9 @@ const Home = () => {
           </li>
         </ul>
       </div>
-      <button className="bg-black py-1 px-3 rounded text-white">Hire Me</button>
+      <button className="bg-black py-1 px-3 rounded text-white">
+        <Link to="/contact">Hire Me</Link>
+      </button>
     </div>
   );
 };

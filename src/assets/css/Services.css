@@ -2,3 +2,10 @@
     transform: translateY(-10px);
     transition: all 0.3s ease;
 }
+@media screen and (max-width: 718px){
+    .services__card:hover{
+        transform: translatex(-20px);
+        transition: all 0.3s ease;
+    }
+    
+}

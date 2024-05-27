@@ -8,7 +8,7 @@ const About = () => {
         <h2 className="text-2xl font-bold md:text-3xl lg:text-4xl">About me</h2>
       </div>
 
-      <div className="flex flex-col mt-10 ml-7 mr-7 mb-8 sm:flex-row sm:mt-2 sm:mr-2 sm:ml-1 lg:flex-col lg:items-center lg:w-[70%] lg:mt-16">
+      <div className="flex flex-col mt-10 ml-7 mr-7 mb-8 sm:flex-row sm:mt-2 sm:mr-2 sm:ml-1 lg:flex-col lg:items-center lg:w-[70%] lg:mt-12">
         <div className="w-full flex justify-center sm:items-center sm:w-[50%]">
           <div className="w-24 h-24 rounded-full md:w-28 md:h-28 lg:w-36 lg:h-36">
             <img
@@ -29,7 +29,9 @@ const About = () => {
           </div>
           <div className="about___skills flex flex-col items-center mx-4 mb-9 mt-8 px-4 py-4 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] rounded md:flex-1 lg:px-6 lg:py-6">
             <div className="w-full mb-2">
-              <h3 className="font-bold text-xl mb-4 sm:text-2xl lg:text-3xl lg:mb-6">Skills</h3>
+              <h3 className="font-bold text-xl mb-4 sm:text-2xl lg:text-3xl lg:mb-6">
+                Skills
+              </h3>
             </div>
             <div className="skills__data w-full mb-2 lg:mb-4">
               <div className=" skills__title flex justify-between md:mb-2 lg:mb-4">

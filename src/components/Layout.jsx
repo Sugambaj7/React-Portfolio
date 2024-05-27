@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import SideBar from "./sidebar/SideBar";
 import Logo from "../assets/shareknowledge.png";
+import Logo2 from "../assets/mind-share.png";
 import Footer from "./footer/Footer";
 
 const Layout = () => {

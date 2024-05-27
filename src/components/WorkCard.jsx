@@ -17,8 +17,10 @@ const WorkCard = (props) => {
       </div>
 
       <h3 className="work__category rounded-b-2xl ">{props.category}</h3>
-      <p className="work__title text-center pl-2 pr-2 sm:text-lg sm:pl-3 sm:pr-3 sm:top-12">{props.title}</p>
-      <a className="work__button flex justify-center items-center text-md sm:h-8 sm:w-8 sm:text-xl" href="#">
+      <p className="work__title text-center pl-2 pr-2 sm:text-lg sm:pl-3 sm:pr-3 sm:top-12">
+        {props.title}
+      </p>
+      <a href="#" className="work__button flex justify-center items-center text-md sm:h-8 sm:w-8 sm:text-xl">
         <FiLink />
       </a>
     </div>
