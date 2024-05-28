@@ -43,7 +43,7 @@ const Home = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="https://x.com/sugambajra44675">
               <FaXTwitter className="icons" />
             </a>
           </li>

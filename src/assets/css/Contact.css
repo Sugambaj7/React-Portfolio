@@ -14,3 +14,27 @@
 .mybutton {
   background-color: var(--msg-primary-button-color);
 }
+.first-line {
+  background-color: white;
+  width: 2px;
+  height: 12px;
+  transform: rotate(45deg) translate(5px, -4px);
+}
+.second-line {
+  background-color: white;
+  width: 2px;
+  height: 12px;
+  transform: rotate(-45deg) translate(3px, 4.5px);
+}
+@media screen and (min-width: 459px) {
+  .maintenance-alert {
+    width: 60%;
+    height: 8%;
+  }
+}
+@media screen and (max-width: 458px) {
+  .maintenance-alert {
+    width: 85%;
+    height: 8%;
+  }
+}

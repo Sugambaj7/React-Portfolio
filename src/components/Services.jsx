@@ -10,21 +10,21 @@ const services = [
     image: firstservice,
     title: "Web Development",
     description:
-      "'Web Development has always been a subject of interest to me.'",
+      "“Dynamic, responsive, and user-friendly websites tailored to your business needs”",
   },
   {
     id: 2,
     image: secondservice,
     title: "Video Editing",
     description:
-      "'Video Editing indeed transform raw footage into polished professional videos.'",
+      "“Video Editing indeed transform raw footage into polished professional videos.”",
   },
   {
     id: 3,
     image: thirdservice,
     title: "UI/UX Design",
     description:
-      "Creating inituitive and engaging user experiences is indeed everyone's priotity.",
+      "“Creating inituitive and engaging user experiences is indeed everyone's priotity.”",
   },
 ];
 
@@ -32,7 +32,7 @@ const Services = () => {
   return (
     <div className="ml-12 mr-4 flex flex-col sm:ml-24">
       {/* full nai leko xa */}
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-6">
         <h2 className="heading ibm-plex-mono-bold text-2xl font-bold md:text-3xl lg:text-4xl">
           Services
         </h2>
@@ -58,7 +58,7 @@ const Services = () => {
                   {title}
                 </h3>
                 <p className="description ibm-plex-sans-regular text-center px-2 text-md mt-0.5 ml-1 mr-1 mb-1 sm:mt-2 sm:ml-1 sm:mr-1  md:mt-3 md:ml-5 md:mr-5 lg:text-xl">
-                  {description}
+                 {description}
                 </p>
               </div>
             </div>

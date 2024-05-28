@@ -14,7 +14,11 @@ const Toggle = ({ handleChange, isChecked }) => {
         onChange={handleChange}
         checked={isChecked}
       />
-      <label htmlFor="check">{isDark ? "Dark Mode" : "Light Mode"}</label>
+      <label htmlFor="check">
+        <p className="text-xl md:text-2xl">
+          {isDark ? "Dark Mode" : "Light Mode"}
+        </p>
+      </label>
     </div>
   );
 };
