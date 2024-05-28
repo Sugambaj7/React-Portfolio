@@ -8,19 +8,22 @@ import Academics from "./components/Academics";
 import RecentWorks from "./components/RecentWorks";
 import Contact from "./components/Contact";
 import { Routes, Route, Navigate } from "react-router-dom";
+import ThemeContextProvider from "./components/ThemeContextProvider";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/academics" element={<Academics />} />
-        <Route path="/recentworks" element={<RecentWorks />} />
-        <Route path="/contact" element={<Contact />} />
-      </Route>
-    </Routes>
+    <ThemeContextProvider>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/academics" element={<Academics />} />
+          <Route path="/recentworks" element={<RecentWorks />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
+      </Routes>
+    </ThemeContextProvider>
   );
 }
 

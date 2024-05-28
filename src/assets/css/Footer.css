@@ -1,0 +1,9 @@
+.my-footer {
+  background-color: var(--footer-primary-background-color);
+}
+.footer-text {
+  color: var(--footer-primary-text-color);
+}
+.footer-icon {
+  color: var(--footer-primary-text-color);
+}

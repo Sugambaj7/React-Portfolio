@@ -1,13 +1,19 @@
 import React from "react";
-import { AiTwotoneCopyrightCircle } from "react-icons/ai";
+import { PiCopyright } from "react-icons/pi";
+import "../../assets/css/Footer.css";
 
 const Footer = () => {
   const currentDate = new Date();
   const currentYear = currentDate.getFullYear();
   return (
-    <div className="bg-black flex flex-col items-center h-full w-full pt-2 pb-2">
-      <p className="text-white flex flex-row">
-        Copyright <AiTwotoneCopyrightCircle className="text-2xl mx-1" />
+    <div className="flex justify-center pt-2 pb-2">
+      <p className=" footer-text ibm-plex-sans-regulartext-white lg:text-lg">
+        Copyright
+      </p>
+      <p className="ibm-plex-sans-regular footer-icon mx-1 mt-1.5 lg:text-lg">
+        <PiCopyright />
+      </p>
+      <p className="footer-text ibm-plex-sans-regular lg:text-lg">
         {currentYear}
       </p>
     </div>

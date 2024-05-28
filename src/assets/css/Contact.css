@@ -1,0 +1,16 @@
+.heading,
+.my-text {
+  color: var(--primary-text-color);
+}
+.form-inputs {
+  background-color: var(--card-background-color);
+}
+.form-inputs::placeholder {
+  color: var(--forminput-primary-text-color);
+}
+.mybutton {
+  color: var(--secondary-text-color);
+}
+.mybutton {
+  background-color: var(--msg-primary-button-color);
+}

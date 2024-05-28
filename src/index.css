@@ -2,8 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    body{
-        background-color: #F8F8FC;
-    }
+:root {
+  --background-color: #f8f8fc;
+  --background-button-color: #0a0a0a;
+  --background-icon-color: #0a0a0a;
+  --foreground-color: blue;
+  --primary-text-color: #0a0a0a;
+  --secondary-text-color: #ffffff;
+  --background-graduation-cap-color: #f5c0c1;
+  --card-background-color: #ffffff;
+  --about-card-primary-background-color: white;
+  --education-primary-text-color: rgb(120 113 108);
+  --workmask-primary-background-color: #6c6ce5;
+  --workmask-primary-text-color: #fff;
+  --forminput-primary-text-color: #b1b6c0;
+  --msg-primary-button-color: rgb(96 165 250);
+  --button-primary-text-color: #ffffff;
+  --footer-primary-background-color: black;
+  --footer-primary-text-color: white;
+  --services-primary-text-color: black;
+  --timeline-primary-title-text-color: black;
+  --toggle-bg:rgb(74 222 128);
+  --toggle-fg: white;
+}
+
+@layer components {
+  .overall-content {
+    background-color: var(--background-color);
+  }
+  .ibm-plex-mono-bold {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .ibm-plex-sans-regular {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+[data-theme="dark"] {
+  --background-color: #0a0a0a;
+  --foreground-color: #003cff;
+  --background-icon-color: white;
+  --primary-text-color: #ffffff;
+  --background-button-color: #ffffff;
+  --button-primary-text-color: #0a0a0a;
+  --secondary-text-color: #0a0a0a;
+  --about-card-primary-background-color: black;
+  --card-background-color: white;
+  --msg-primary-button-color: white;
 }

@@ -1,0 +1,18 @@
+.heading {
+  color: var(--primary-text-color);
+}
+.my-text {
+  color: var(--primary-text-color);
+}
+.skills__name {
+  color: var(--primary-text-color);
+}
+.skills__number {
+  color: var(--primary-text-color);
+}
+.about__skills {
+  background-color: var(--card-background-color);
+}
+.my-card {
+  background-color: var(--about-card-primary-background-color);
+}

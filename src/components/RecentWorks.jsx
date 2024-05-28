@@ -15,7 +15,9 @@ const RecentWorks = () => {
   };
   return (
     <div className="ml-12 mr-2 mb-8 flex flex-col sm:ml-24 sm:mr-5">
-      <h3 className="text-2xl font-bold w-full text-center md:text-3xl lg:text-4xl">Recent Works</h3>
+      <h3 className="heading ibm-plex-mono-bold text-2xl font-bold w-full text-center md:text-3xl lg:text-4xl">
+        Recent Works
+      </h3>
       <div className="work__filters mt-5 mr-2 flex flex-wrap space-x-4 justify-center">
         <span
           className="work_items text-md md:text-lg lg:text-xl"
@@ -29,7 +31,10 @@ const RecentWorks = () => {
         >
           Design
         </span>
-        <span className="work_items text-md md:text-lg lg:text-xl" onClick={() => filterWork("Art")}>
+        <span
+          className="work_items text-md md:text-lg lg:text-xl"
+          onClick={() => filterWork("Art")}
+        >
           Art
         </span>
         <span

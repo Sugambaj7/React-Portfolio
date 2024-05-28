@@ -1,0 +1,9 @@
+.heading {
+  color: var(--primary-text-color);
+}
+.academics__timeline {
+  background-color: var(--card-background-color);
+}
+.experience__timeline {
+  background-color: var(--card-background-color);
+}

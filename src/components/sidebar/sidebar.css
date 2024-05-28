@@ -1,4 +1,7 @@
-.nav_links:hover{
-    color: red;
-    transition: 0.9s;
+.nav_links {
+  color: var(--background-icon-color);
+}
+.nav_links:hover {
+  color: red;
+  transition: 0.9s;
 }

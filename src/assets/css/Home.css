@@ -1,4 +1,19 @@
-ul > li:hover{
-    color: red;
-    transition: 0.5s;
+.heading {
+  color: var(--primary-text-color);
+}
+.my-text {
+  color: var(--primary-text-color);
+}
+.icons {
+  color: var(--primary-text-color);
+}
+.my-buttons {
+  background-color: var(--background-button-color);
+}
+.my-buttons p {
+  color: var(--button-primary-text-color);
+}
+.icons:hover {
+  color: red;
+  transition: 0.5s;
 }

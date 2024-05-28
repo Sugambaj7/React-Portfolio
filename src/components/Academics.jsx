@@ -1,12 +1,13 @@
 import React from "react";
 import AcademicsData from "./AcademicsData";
+import "../assets/css/Academics.css";
 import Card from "./Card";
 import { LuGraduationCap } from "react-icons/lu";
 
 const Academics = () => {
   return (
     <div className="ml-12 mr-2 flex flex-col sm:ml-24">
-      <h2 className="text-center  font-bold mb-8 text-2xl md:text-3xl lg:text-4xl">
+      <h2 className="heading ibm-plex-mono-bold text-center  font-bold mb-8 text-2xl md:text-3xl lg:text-4xl">
         Academics & Experience
       </h2>
 
