@@ -41,9 +41,9 @@ const AcademicsData = [
     category: "Experience",
     icon: <IoBriefcaseOutline />,
     year: "2022 - 2023",
-    title: "Member of Computer Club",
+    title: "Member of IT Club",
     description:
-      "I joined xyz IT Club to get involved in various activities and events.",
+      "I joined xyz IT Club to get involved in various intellectual activities and events.",
   },
   {
     id: 6,
