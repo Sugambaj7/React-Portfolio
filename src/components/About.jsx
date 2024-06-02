@@ -5,7 +5,7 @@ import "../assets/css/About.css";
 const About = () => {
   return (
     <div className="ml-12 mr-2 flex flex-col sm:ml-24 sm:mr-10 justify-center items-center">
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-6">
         <h2 className="heading ibm-plex-mono-bold text-2xl font-bold md:text-3xl lg:text-4xl">
           About me
         </h2>

@@ -25,7 +25,7 @@ const Contact = () => {
           </div>
         </div>
       )}
-      <div>
+      <div className="mt-6">
         <h3 className="heading text-2xl font-bold text-center md:text-3xl lg:text-4xl ibm-plex-mono-bold">
           Get In Touch
         </h3>
